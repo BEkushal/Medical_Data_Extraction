@@ -1,0 +1,9 @@
+pdf2image 
+pytesseract 
+opencv_python 
+numpy 
+pandas 
+Pillow 
+fastapi
+ipykernel
+notebook
