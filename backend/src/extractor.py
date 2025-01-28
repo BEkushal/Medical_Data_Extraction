@@ -27,5 +27,5 @@ def extract(file_path,file_format):
 
 
 if __name__ == "__main__":
-    data = extract("../resources/patient_details/pd_1.pdf","prescription")
+    data = extract("../resources/patient_details/pd_2.pdf","prescription")
     print(data)

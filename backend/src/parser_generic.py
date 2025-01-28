@@ -7,3 +7,4 @@ class MedicalDocParser(metaclass=abc.ABCMeta):
     @abc.abstractmethod  
     def parse(self):
         pass
+    
