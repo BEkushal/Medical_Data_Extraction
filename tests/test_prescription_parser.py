@@ -1,4 +1,10 @@
 from backend.src.parser_prescription import PrescriptionParser
+
+import sys
+import os
+
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 def test_get_name():
     pp = PrescriptionParser(document_text)
     assert pp.get_field('patient name') == 'Marta Sharapova'
