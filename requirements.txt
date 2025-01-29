@@ -8,3 +8,5 @@ fastapi
 ipykernel
 notebook
 pytest
+uvicorn
+python-multipart
