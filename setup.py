@@ -11,3 +11,4 @@ setup(
     install_requires=install_requires,  # Dependencies from requirements.txt
     python_requires=">=3.10"  # Python version
 )
+
