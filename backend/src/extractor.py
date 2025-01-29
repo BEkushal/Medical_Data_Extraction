@@ -1,7 +1,7 @@
 from pdf2image import convert_from_path
 import pytesseract
 from PIL import Image
-import utils
+import backend.src.utils as utils
 from backend.src.parser_prescription import PrescriptionParser
 from backend.src.parser_patient_details import PatientDetailsParser
 
