@@ -9,4 +9,3 @@ def preprocess_image(img):
     )
     return processed_img
 
-print("File: ",__file__)
