@@ -7,15 +7,6 @@ import uuid
 
 app = FastAPI() 
 
-# @app.post("/extract_from_doc")
-# async def extract_from_doc(file_format: str = Form(...),
-#                      file: UploadFile = File(...)):
-#     content = file.file.read()
-    
-#     with open("../uploads/test.pdf",'wb') as f:
-#         f.write(content)
-
-
 @app.post("/extract_from_doc")
 async def extract_from_doc(file_format: str = Form(...), file: UploadFile = File(...)):
     print(f"Received file format: {file_format}")
